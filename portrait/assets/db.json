@@ -1,0 +1,119 @@
+{
+    "styles": [
+        {
+            "src": "assets/img/styles-5.jpg",
+            "title": "Пастелью",
+            "link": "#pastel"
+        },
+        {
+            "src": "assets/img/styles-6.jpg",
+            "title": "Поп-арт",
+            "link": "#popart"
+        },
+        {
+            "src": "assets/img/styles-7.png",
+            "title": "Фотомозаика",
+            "link": "#mozaika"
+        },
+        {
+            "src": "assets/img/styles-8.jpg",
+            "title": "Шарж",
+            "link": "#sharj"
+        }
+    ],
+    "prices": {
+        "size": [
+            {
+                "id": "0",
+                "description": "Выберите размер картины",
+                "value": ""
+            },
+            {
+                "id": "1",
+                "description": "40x50",
+                "value": "500"
+            },
+            {
+                "id": "2",
+                "description": "50x70",
+                "value": "1000"
+            },
+            {
+                "id": "3",
+                "description": "70x70",
+                "value": "1500"
+            },
+            {
+                "id": "4",
+                "description": "70x100",
+                "value": "2000"
+            }
+        ],
+        "material": [
+            {
+                "id": "0",
+                "description": "Выберите материал картины",
+                "title": "",
+                "value": ""
+            },
+            {
+                "id": "1",
+                "description": "Холст из волокна",
+                "title": "Изящный, позволяет легко создавать текстуру, подходит для декоративных картин маслом.",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "description": "Льняной холст",
+                "title": "Достаточно грубый и создает ощущение реальности, подходит для классических пейзажей, натюрмортов и портретов.",
+                "value": "1.2"
+            },
+            {
+                "id": "3",
+                "description": "Холст из натурального хлопка",
+                "title": "Изящный, подходит для всех типов реалистичных портретов.",
+                "value": "1.5"
+            }
+        ],
+        "options": [
+            {
+                "id": "0",
+                "title": "",
+                "description": "Дополнительные услуги",
+                "value": "0"
+            },
+            {
+                "id": "1",
+                "title": "",
+                "description": "Покрытие арт-гелем",
+                "value": "1000"
+            },
+            {
+                "id": "2",
+                "title": "",
+                "description": "Экспресс-изготовление",
+                "value": "1500"
+            },
+            {
+                "id": "3",
+                "title": "",
+                "description": "Доставка готовых работ",
+                "value": "500"
+            }
+        ]
+    },
+    "promocode": [
+        {
+            "name": "HELLOWORLD",
+            "value": "0.95"
+        },
+        {
+            "name": "DUDE",
+            "value": "0.85"
+        },
+        {
+            "name": "IWANTPOPART",
+            "value": "0.7"
+        }
+    ]
+}
