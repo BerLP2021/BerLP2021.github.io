@@ -19,19 +19,16 @@ counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 });
 
-//smooth scroll and pageup
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 800) {
-    $('.pageup').fadeIn()
-  } else {
-    $('.pageup').fadeOut()
-  }
-});
-
-$("a[href^='#']").click(function() {
-  const _href=$(this).attr('href');
-  $('html, body').animate({scrollTop: $(_href).offset().top+'px'});
-  return false;
+const upArrow = document.querySelector('.pageup');
+window.addEventListener('scroll', function(){
+    
+    if(document.documentElement.scrollTop >= 800 ) {
+        upArrow.classList.add('animated', 'fadeIn');
+        upArrow.classList.remove('fadeOut');
+    } else {
+        upArrow.classList.add('fadeOut');
+        upArrow.classList.remove('fadeIn');
+    }
 });
 
 function getScrollWidth() {
